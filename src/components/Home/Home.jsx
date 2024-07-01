@@ -1,5 +1,6 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
+import home from "../Assets/bg.png"
 
 function Home() {
     return(
@@ -15,7 +16,7 @@ function Home() {
                      </div>
                 </div>
                 <div className="hero-img">
-                    <img src="src/components/Assets/bg.png"  />
+                    <img src={home}  />
                 </div>
             </div>
         </section>
